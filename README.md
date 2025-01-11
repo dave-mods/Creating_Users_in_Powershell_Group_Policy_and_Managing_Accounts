@@ -21,9 +21,11 @@ In here we will select Remote Desktop on the right. Go down to User Accounts. Hi
 Now login to dc-1 as jane_admin if you arent still logged in. Here we will go to the search bar in bottom left and search for PowerShell ISE right clcik and open as admin.
 ![image](https://github.com/user-attachments/assets/780013cb-cf20-4b10-b403-e8b66bc5370d)
 
+Open a new file and select desktop and name it create-users and save it. Then we will post our script that will generate random users and hit the green triangle (run script) button on the top bar.
+![image](https://github.com/user-attachments/assets/37b34530-5472-48a3-960b-5620547af9ed)
 
-
-
+The script will be running making all our users. We will let this run for a bit. All the users being created will be sent to the OU folder we made named _EMPLOYEES.
+![image](https://github.com/user-attachments/assets/c75ebb9c-8bac-4656-94a4-a19c59a02244)
 
 
 
