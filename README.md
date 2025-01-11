@@ -12,3 +12,64 @@ This project will demonstrate how to configure Remote Desktop for non-administra
  - Windows Server
  - Windows 10
 # <b>Project Walk-through<b/>
+To get started lets login to client-1 VM as mydomain.com\jane_admin with the Cyberlab123! password. In the client-1 VM we will search "about your PC" in the search bar at the bottom left.
+![image](https://github.com/user-attachments/assets/3927a257-78dc-443e-9417-c477be7137a4)
+
+In here we will select Remote Desktop on the right. Go down to User Accounts. Hit Select users that can remotley access this PC. In the Remote Desktop Users box hit ADD.., in here we will put Domain Users, then check names and hit OK. Now all Domian Users by default can now login to the domain as a non admin user.
+![image](https://github.com/user-attachments/assets/edf8266e-6a75-4f98-9c59-e999c73be649)
+
+Now login to dc-1 as jane_admin if you arent still logged in. Here we will go to the search bar in bottom left and search for PowerShell ISE right clcik and open as admin.
+![image](https://github.com/user-attachments/assets/780013cb-cf20-4b10-b403-e8b66bc5370d)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
